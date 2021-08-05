@@ -97,7 +97,7 @@ small {
 	font-size: 0.8em;
 }
 
-.border {
+.container {
 	margin: 32px;
 	border: 2px solid rgba(0,0,0,.1);
 }
@@ -170,27 +170,27 @@ img {
 	width: calc(50% - 10.6665px);
 }
 
-.portfolio {
+.products {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 }
 
-.portfolio-grid {
+.products-grid {
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-between;
 }
 
-.photography, .logos-trademarks, .book-layout {
+.polos, .tees, .button-ups {
 	text-align: center;
 }
 
-.logos-trademarks h3 {
+.tees h3 {
 	text-align: left;
 }
 
-.portfolio-item {
+.product-item {
 	color: white;
 	text-decoration: none;
 	font-weight: bold;
@@ -201,7 +201,6 @@ img {
 	width: calc(50% - 10.6665px);
 	height: 400px;
 	margin-bottom: 1em;
-
 	background-color: rgba(0,0,0,.44);
 	background-blend-mode: multiply;
 	background-position: center;
@@ -213,17 +212,17 @@ img + img {
 	margin-top: 1rem;
 }
 
-a.logos-trademarks {
-	background-image: url("../images/vp_ceramics.png");
+a.tees {
+	background-image: url("../images/tshirts.jpeg");
 }
-a.book-layout {
-	background-image: url("../images/bible_02.jpg");
+a.button-ups {
+	background-image: url("../images/buttonup.jpeg");
 }
-a.photography {
-	background-image: url("../images/photography/autumn-mountains.jpg");
+a.polos {
+	background-image: url("../images/polo.jpeg");
 }
-a.artwork {
-	background-image: url("../images/monument.jpg");
+a.hoodies-jackets {
+	background-image: url("../images/hoodie.jpeg");
 }
 
 
@@ -330,7 +329,7 @@ a.artwork {
   margin: 15px;
 }
 
-/* Media Queries */
+/* Media Queries for responsiveness */
 
 
 /* Medium screens */
