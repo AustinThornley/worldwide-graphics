@@ -142,6 +142,15 @@ nav {
 	margin: auto;
 }
 
+nav a {
+	text-decoration: none;
+	color: black;
+}
+
+nav a:hover {
+	color: gray;
+}
+
 img {
 	max-width: 100%;
 }
