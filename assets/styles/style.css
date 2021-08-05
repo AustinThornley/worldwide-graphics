@@ -370,6 +370,10 @@ a.hoodies-jackets {
 	}
 	.about-item {
 		width: 100%;
+		text-align: center;
+	}
+	.product-item {
+		font-size: 1.5em;
 	}
 }
 
